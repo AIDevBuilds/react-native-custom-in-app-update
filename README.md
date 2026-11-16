@@ -47,4 +47,6 @@ protected List<ReactPackage> getPackages() {
 1. By default, it's a FLEXIBLE update. If the user doesn't update within 5 days, it becomes an IMMEDIATE update. You can adjust this timeframe by editing STALE_DAYS in CustomInAppUpdateModule.java.
 2. Priority updates are not included. You can implement them by modifying the checkForUpdate method in CustomInAppUpdateModule.java. Refer to the Android Developer Guide on In-App Updates for more information.
 
+## License
 
+MIT. See [LICENSE](LICENSE).
